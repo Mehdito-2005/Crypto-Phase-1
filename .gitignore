@@ -10,3 +10,7 @@ build-*/
 *.user
 CMakeCache.txt
 CMakeFiles/
+build-*/
+*.user
+CMakeCache.txt
+CMakeFiles/

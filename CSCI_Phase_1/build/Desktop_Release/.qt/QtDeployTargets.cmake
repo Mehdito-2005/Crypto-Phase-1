@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_CSCI_Phase_1_FILE /home/mehdito/Desktop/CSCI/CSCI_Phase_1/build/Desktop_Release/CSCI_Phase_1)
+set(__QT_DEPLOY_TARGET_CSCI_Phase_1_TYPE EXECUTABLE)

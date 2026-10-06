@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1539</width>
+    <height>1098</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>200</y>
+          <width>641</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Actions</string>
+        </property>
+        <widget class="QPushButton" name="Encrypt_Button">
+         <property name="geometry">
+          <rect>
+           <x>180</x>
+           <y>170</y>
+           <width>101</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(129, 199, 132);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Encrypt</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="Decrypt_Button">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>170</y>
+           <width>101</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>106</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(229, 115, 115);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Decrypt</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>310</y>
+          <width>621</width>
+          <height>421</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>File Selection</string>
+        </property>
+        <widget class="QPushButton" name="NextButton">
+         <property name="geometry">
+          <rect>
+           <x>500</x>
+           <y>370</y>
+           <width>106</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(100, 181, 246);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&gt;&gt;</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="BackButton">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>370</y>
+           <width>106</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(189, 189, 189);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+         </property>
+         <property name="text">
+          <string>&lt;&lt;</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>120</y>
+           <width>501</width>
+           <height>92</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QLineEdit" name="Input_FilePath">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="placeholderText">
+             <string>Input File Path</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="Input_Button">
+            <property name="text">
+             <string>Browse</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLineEdit" name="Output_FilePath">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+            <property name="placeholderText">
+             <string>Output File Path</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="Output_Button">
+            <property name="text">
+             <string>Browse</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>230</y>
+           <width>391</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>If output File is left blank it will generate it next to it</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QGroupBox" name="groupBox_3">
+          <property name="title">
+           <string>View</string>
+          </property>
+          <widget class="QPushButton" name="Home_Button">
+           <property name="geometry">
+            <rect>
+             <x>730</x>
+             <y>800</y>
+             <width>106</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(179, 157, 219);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Home</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="Exit_button">
+           <property name="geometry">
+            <rect>
+             <x>730</x>
+             <y>860</y>
+             <width>106</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(229, 115, 115);
+font: oblique 14pt &quot;Sans Serif&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Exit</string>
+           </property>
+          </widget>
+          <widget class="QTextEdit" name="logTextEdit">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>190</y>
+             <width>721</width>
+             <height>571</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1539</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
